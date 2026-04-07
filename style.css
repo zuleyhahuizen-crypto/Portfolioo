@@ -1,0 +1,92 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: whitesmoke;
+  color: #333;
+  margin: 0;
+}
+header {
+  background-color: #dbeafe;
+  padding: 30px;
+  text-align: center;
+}
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  max-width: 900px;
+  margin: 30px auto;
+  background-color: white;
+  padding: 25px;
+  border-radius: 15px;
+}
+@keyframes dans {
+  0%   { transform: rotate(0deg) translateY(0); }
+  25%  { transform: rotate(2deg) translateY(-5px); }
+  50%  { transform: rotate(0deg) translateY(0); }
+  75%  { transform: rotate(-2deg) translateY(-5px); }
+  100% { transform: rotate(0deg) translateY(0); }
+}
+.dans {
+  animation: dans 1s infinite;
+  display: inline-block;
+}
+#fotoIk {
+  width: 180px;
+  border-radius: 15px;
+}
+
+.info p {
+  max-width: 500px;
+  line-height: 1.6;
+}
+.projecten {
+  text-align: center;
+  margin-top: 40px;
+}
+#project1,
+#project2,
+#project3 {
+  width: 70%;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+#project2,
+#project3 {
+  display: none;
+}
+button {
+  padding: 10px 20px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.contact {
+  background-color: white;
+  padding: 30px;
+  margin: 40px auto;
+  width: 80%;
+  max-width: 500px;
+  border-radius: 10px;
+}
+.contact h2 {
+  margin-bottom: 20px;
+}
+.contact p {
+  margin: 10px 0;
+}
+.contact a {
+  color: #333;
+  text-decoration: none;
+}
+.contact a:hover {
+  text-decoration: underline;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  background-color: #dbeafe;
+}
